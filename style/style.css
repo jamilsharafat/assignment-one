@@ -1,0 +1,44 @@
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/*nav */
+header{
+    background-image: url(../image/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.btn{
+    font-family: "Raleway", sans-serif;
+    font-size: 16;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 36px;
+}
+.banner{
+    text-align: center;
+    padding-bottom: 200px;
+}
+.banner h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+    padding: 0 200px;
+
+}
