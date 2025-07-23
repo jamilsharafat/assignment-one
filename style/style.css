@@ -1,4 +1,4 @@
-.raleway-<uniquifier> {
+body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -103,4 +103,46 @@ nav{
     font-weight: 400;
     opacity: 50%;
     margin: 0;
+}
+/*compliment*/
+.compliment{
+    padding: 0 100px 50px;
+}
+.compliment h1{
+    text-align: center;
+}
+.compliment-all{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.compliment-data{
+    display: flex;
+   align-items: center;
+}
+.compliment-data img{
+    width: 40px;
+    height: 40px;
+    border-radius:9999% ;
+}
+.compliment-data h6{
+    margin: 0;
+    margin-left: 10px;
+   
+}
+.compliment-data p{
+    margin: 0;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.compliment-one{
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: 2px solid #F2EDED;
+    border-radius: 10px ;
+   
+}
+.compliment-one h3{
+    margin-bottom: 0;
 }
