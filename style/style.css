@@ -70,3 +70,37 @@ nav{
 .action img{
     border-radius: 50px;
 }
+/*user*/
+.user{
+    margin: 0 100px 50px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 20px;
+    padding: 30px 100px;
+}
+.user-n{
+    display: flex;
+    justify-content: space-between;
+}
+.user h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 38;
+    font-weight: 700;
+    text-align: center;
+    color: #252432;
+    margin-top: 0;
+    
+}
+.item h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin: 0;
+}
+.item p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 50%;
+    margin: 0;
+}
