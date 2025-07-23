@@ -146,3 +146,33 @@ nav{
 .compliment-one h3{
     margin-bottom: 0;
 }
+/*focus*/
+.focus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.f-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  
+}
+.f-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.f-content p{
+    margin: 0;
+}
+
+.f-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
