@@ -42,3 +42,31 @@ nav{
     padding: 0 200px;
 
 }
+/*action*/
+.action{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.action-content{
+    padding-top: 50px;
+}
+.action h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 0;
+
+}
+.action p{
+    font-family: "Raleway", sans-serif;
+    font-size: 24;
+    font-weight: 400;
+    color: #252432;
+    margin-right: 352px;
+    opacity: 50%;
+}
+.action img{
+    border-radius: 50px;
+}
