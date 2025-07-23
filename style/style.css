@@ -176,3 +176,88 @@ nav{
   height: auto;
   border-radius: 40px;
 }
+/*contact*/
+.contact {
+  padding: 50px 150px;
+}
+
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  flex: 1;
+}
+
+.contact-text h1 {
+  font-size: 97px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 80px;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #4E47FF;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+/*footer*/
+footer{
+    padding: 50px 150px;
+    background-color: #E9E8FD;
+   
+    justify-content: center;
+    text-align: center;
+}
+footer img{
+    width: 291px;
+    height: 121px;
+}
+.f-p{
+    padding: 0 250px;
+    margin-bottom: 0;
+}
+.f-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 300px;
+  
+}
